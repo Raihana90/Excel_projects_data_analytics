@@ -92,11 +92,10 @@ The dataset used for this project contains real-world data science job informati
 
 <img width="158" height="167" alt="sorted type" src="https://github.com/user-attachments/assets/27e61092-ba5b-4a10-9b82-417c220e7f23" />  
 
-📉 Dashboard Implementation:
+📉 Dashboard Implementation:  
 
+<img width="500" height="622" alt="type" src="https://github.com/user-attachments/assets/6c6ef4e0-efe6-4122-aad2-fcaff283925c" />  
 
-
-<img src="/0_Resources/Images/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
 
 ### ❎ Data Validation
 
@@ -105,10 +104,15 @@ The dataset used for this project contains real-world data science job informati
 - 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
     - 🎯 User input is restricted to predefined, validated schedule types
     - 🚫 Incorrect or inconsistent entries are prevented
-    - 👥 Overall usability of the dashboard is enhanced
+    - 👥 Overall usability of the dashboard is enhanced  
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">
+
+![Pause GIF image](https://github.com/user-attachments/assets/4c3aba46-fcf4-43e2-87d7-1524bbe7051f)
+
+
+
+
 
 ## Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
+I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing a real data, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
