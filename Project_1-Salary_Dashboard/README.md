@@ -3,9 +3,7 @@
 
 ## Introduction
 
-This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated. 
-
-The data provides a foundation for analyzing data using Excel. The data contains detailed information on job titles, salaries, locations, etc...
+This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated. The data provides a foundation for analyzing data using Excel. The data contains detailed information on job titles, salaries, locations, etc...
 
 ### Dashboard File
 My final dashboard is in [My_project_salary_dashboard.xlsx](My_project_salary_dashboard.xlsx).
