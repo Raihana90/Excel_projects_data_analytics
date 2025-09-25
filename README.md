@@ -11,5 +11,5 @@ This repo contains two projects in Excel files:
 
 ## Project 2: Salary Analysis  
 - This data salary analysis was created to explore the most optimal jobs and skills in the data science market, to understand what skills top employers request and how to land a higher pay. [Check out my work here](Project_2-Analysis)  
-<img width="781" height="451" alt="skills better pay" src="https://github.com/user-attachments/assets/36cf1358-5689-45c8-839c-b158a8607820" />   
-<img width="635" height="346" alt="top skills" src="https://github.com/user-attachments/assets/beda678c-10eb-44f3-ac2d-a7fde5e20a03" />
+<img width="812" height="501" alt="skills better pay" src="https://github.com/user-attachments/assets/d6553aeb-0d78-4db7-8172-0b2e48ba3d80" />
+<img width="650" height="391" alt="top skills" src="https://github.com/user-attachments/assets/bc692d7f-7248-4198-8772-87bdd16bd100" />
