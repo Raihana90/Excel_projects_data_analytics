@@ -1,5 +1,6 @@
-# Excel Salary Dashboard
-![vid1 gif (1)](https://github.com/user-attachments/assets/d15907a6-7dae-4c88-9b82-0a3654d33e61)
+# Excel Salary Dashboard  
+
+![vid1 gif(1)](https://github.com/user-attachments/assets/510042fa-1fc2-402d-ad6f-7ff8740ae01b)
 
 ## Introduction
 
@@ -29,9 +30,9 @@ The dataset used for this project contains real-world data science job informati
 
 ### 📉 Charts
 
-#### 📊 Data Science Job Salaries - Bar Chart
+#### 📊 Data Science Job Salaries - Bar Chart  
 
-<img width="567" height="297" alt="job title" src="https://github.com/user-attachments/assets/0a4775e2-60b6-410b-ad32-ae448c9e9d4a" />
+<img width="555" height="283" alt="job title" src="https://github.com/user-attachments/assets/1654e16e-c1ad-439d-a239-3c4c19dba7bd" />
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
@@ -56,9 +57,9 @@ The dataset used for this project contains real-world data science job informati
 =MEDIAN(
   IF(
     (jobs[job_title_short]=A2)*
-    (jobs[job_country]=Country)*
-    (ISNUMBER(SEARCH(Type,jobs[job_schedule_type])))*
-    (jobs[salary_year_avg]<>0),
+    (jobs[salary_year_avg]<>0)*
+    (jobs[job_country]=country)*
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type]))),
     jobs[salary_year_avg]
   )
 )
@@ -73,14 +74,14 @@ The dataset used for this project contains real-world data science job informati
 
 <img width="382" height="272" alt="table1" src="https://github.com/user-attachments/assets/69d1efc5-71d7-4f88-8ee4-ff5bbfb3d37a" />   
 
-📉 Dashboard Implementation  
+📉 Dashboard Implementation      
 
-<img width="505" height="616" alt="job title dashboard" src="https://github.com/user-attachments/assets/92a80f55-aa0d-464e-9b7f-71e4edcedfc7" />   
+<img width="563" height="572" alt="job title dashboard" src="https://github.com/user-attachments/assets/23dfa415-c6af-489c-84fd-ef3f76871625" />
 
 #### ⏰ Count of Job Schedule Type
 
 ```
-=FILTER(O2#,NOT(ISNUMBER(SEARCH("and",O2#)))*(O2#<>0))
+=FILTER(M2#,NOT(ISNUMBER(SEARCH("and",M2#)))*(M2#<>0))
 ```
 
 - 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" and omit zero values.
@@ -90,9 +91,9 @@ The dataset used for this project contains real-world data science job informati
 
 <img width="158" height="167" alt="sorted type" src="https://github.com/user-attachments/assets/27e61092-ba5b-4a10-9b82-417c220e7f23" />  
 
-📉 Dashboard Implementation:  
-
-<img width="500" height="622" alt="type" src="https://github.com/user-attachments/assets/6c6ef4e0-efe6-4122-aad2-fcaff283925c" />  
+📉 Dashboard Implementation:    
+ 
+<img width="562" height="570" alt="type" src="https://github.com/user-attachments/assets/6e6050b4-e45f-45f5-aa50-4fb3b8eb23b7" />
 
 
 ### ❎ Data Validation
